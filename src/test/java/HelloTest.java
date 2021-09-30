@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 
-public class hellotest {
+public class HelloTest {
 
     @Test
     @DisplayName("ทดสอบด้วย J5")
