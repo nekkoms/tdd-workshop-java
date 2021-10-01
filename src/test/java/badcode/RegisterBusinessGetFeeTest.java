@@ -22,8 +22,8 @@ class RegisterBusinessGetFeeTest {
             "20,0",
     })
     public void getFee(int exp, int fee) {
-        RegisterBusiness business = new RegisterBusiness();
-        int actualFee = business.getFee(exp);
+        Speaker speaker = new Speaker();
+        int actualFee = speaker.getFee(exp);
         assertEquals(fee, actualFee);
     }
 
